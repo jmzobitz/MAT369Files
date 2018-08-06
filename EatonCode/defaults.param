@@ -1,0 +1,12 @@
+# Parameter estimate file
+# <- ignored when read in, along with blank lines
+# can do e-NUM or e+NUM for exponents
+
+# If you estimate a parameter: changeable = 1.
+# value = default value of the parameter
+# minVal = minimum value of parameter range
+# maxVal = maximum value of parameter range
+
+name changeable value minVal maxVal
+k 1 0.007 0 1
+b 1 0.05 0 1

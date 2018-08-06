@@ -1,0 +1,30 @@
+[1] "Names of Estimated parameters:"
+[1] Ksa   bsa   Kschi bschi alpha beta 
+Levels: alpha beta bsa bschi Ksa Kschi
+
+Iterations = 1:173
+Thinning interval = 1 
+Number of chains = 1 
+Sample size per chain = 173 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+        Mean     SD Naive SE Time-series SE
+[1,] 11.5266 0.6388  0.04857        0.55601
+[2,]  0.1525 0.0000  0.00000        0.00000
+[3,]  3.4304 2.2888  0.17401        0.53588
+[4,]  0.4926 0.3079  0.02341        0.07165
+[5,]  0.8293 0.5403  0.04108        0.32142
+[6,]  2.1885 0.8922  0.06783        0.30938
+
+2. Quantiles for each variable:
+
+        2.5%     25%     50%     75%   97.5%
+var1 10.9915 10.9915 11.1538 12.1175 12.5397
+var2  0.1525  0.1525  0.1525  0.1525  0.1525
+var3  1.4337  2.0239  2.7563  3.5693 11.8480
+var4  0.0302  0.2178  0.5431  0.7539  0.9394
+var5  0.2963  0.2963  0.6739  1.2701  1.9842
+var6  0.6578  1.4379  2.2801  3.0583  3.5673
+

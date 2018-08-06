@@ -1,0 +1,40 @@
+Starting Parameter Estimation
+Input parameter file:  defaults.param
+Input data file:  data.csv
+Output parameter estimate file:  Outputs/parameterEstimate.Rda
+
+Number of Chains:  1
+Max Iterations per Chain:  1500
+Burn Iterations / Estimate Iterations:  700  /  800
+MCMC Random Number Generator Seed value:  976286783
+
+Chain 1 of  1
+Start Chain Time: Fri Oct 30 14:19:37 2015
+Iteration:  100 0.49 % accepted at  Fri Oct 30 14:19:37 2015
+Iteration:  200 0.39 % accepted at  Fri Oct 30 14:19:38 2015
+
+Parameter CurrentValue MaxLLvalue Knob
+Ksa	11.062	11.062	0.937
+bsa	0.439	0.439	0.932
+Kschi	3.906	3.906	0.895
+bschi	0.878	0.878	1.1
+alpha	2.815	2.815	1.123
+beta	2.276	2.276	1.02
+
+Number of Iterations:  200
+Acceptance:  0.39
+Best Chain:  1
+maxLL of Chain / best maxLL:  -39.79627  /  -39.79627
+End Chain Time: Fri Oct 30 14:19:38 2015
+***********************
+
+Starting parameter estimation from maxLL parameters from chain:  1
+
+Start Chain Time: Fri Oct 30 14:19:38 2015
+
+Finished burn-in chain; starting estimate chain.
+Burn chain acceptance:  700 0.237 %
+
+End Chain Time: Fri Oct 30 14:19:44 2015
+Estimate chain acceptance:  800 0.215 %
+

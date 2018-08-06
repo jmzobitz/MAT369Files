@@ -1,0 +1,22 @@
+[1] "Names of Estimated parameters:"
+[1] k b
+Levels: b k
+
+Iterations = 1:123
+Thinning interval = 1 
+Number of chains = 1 
+Sample size per chain = 123 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+         Mean        SD  Naive SE Time-series SE
+[1,] 0.002005 5.029e-05 4.535e-06      7.724e-06
+[2,] 0.016920 5.794e-04 5.224e-05      7.715e-05
+
+2. Quantiles for each variable:
+
+         2.5%      25%      50%      75%    97.5%
+var1 0.001899 0.001972 0.002009 0.002041 0.002093
+var2 0.015677 0.016552 0.016997 0.017321 0.017832
+

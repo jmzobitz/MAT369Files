@@ -1,0 +1,19 @@
+# Parameter estimate file
+# <- ignored when read in, along with blank lines
+# can do e-NUM or e+NUM for exponents
+
+name changeable value minVal maxVal
+
+# parameters for Saccharomyces denoted with Sa
+# parameters for Schizosaccharomyces denoted with Kschi
+Ksa 1 5 1 20
+bsa 1 0.5 0 1
+
+Kschi 1 5 1 20
+bschi 1 0.5 0 1
+
+# Define the interaction terms
+# alpha is the influence of Schizosaccharomyces on Saccharomyces
+# beta is the influence of Saccharomyces on Schizosaccharomyces
+alpha 1 2 0 4
+beta 1 2 0 4
